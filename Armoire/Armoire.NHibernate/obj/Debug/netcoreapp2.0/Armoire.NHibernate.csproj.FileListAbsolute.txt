@@ -1,0 +1,6 @@
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\obj\Debug\netcoreapp2.0\Armoire.NHibernate.csprojResolveAssemblyReference.cache
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\obj\Debug\netcoreapp2.0\Armoire.NHibernate.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\obj\Debug\netcoreapp2.0\Armoire.NHibernate.AssemblyInfoInputs.cache
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\obj\Debug\netcoreapp2.0\Armoire.NHibernate.AssemblyInfo.cs
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\bin\Debug\netcoreapp2.0\Armoire.NHibernate.deps.json
+C:\Projects\empower\Test\Armoire\Armoire.NHibernate\bin\Debug\netcoreapp2.0\Armoire.NHibernate.dll
