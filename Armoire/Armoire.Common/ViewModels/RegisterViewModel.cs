@@ -24,17 +24,17 @@ namespace Armoire.Common
         public string EmailRF { get; set; }
 
         //DELETE FROM TABLE
-        //public string PhoneRF { get; set; }
-        //public string AddressRF { get; set; }
-        //public string CityRF { get; set; }
-        //public string StateRF { get; set; }
-        //public string ZipRF { get; set; }
+        public string PhoneRF { get; set; }
+        public string AddressRF { get; set; }
+        public string CityRF { get; set; }
+        public string StateRF { get; set; }
+        public string ZipRF { get; set; }
         public byte[] ImageRF { get; set; }
 
         //set something up to give admin access these variables
         public string AccountTypeRF { get; set; }
-        public string accountStatusRF { get; set; }
+        public string AccountStatusRF { get; set; }
         public DateTime DateCreatedRF { get; set; }
-        public DateTime lastUpdated { get; set; }
+        public DateTime LastUpdated { get; set; }
     }
 }

@@ -7,3 +7,12 @@ C:\Projects\empower\Test\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.
 C:\Projects\empower\Test\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.AssemblyInfo.cs
 C:\Projects\empower\Test\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.dll
 C:\Projects\empower\Test\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.pdb
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\bin\Debug\netcoreapp2.0\Armoire.Common.deps.json
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\bin\Debug\netcoreapp2.0\Armoire.Common.dll
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\bin\Debug\netcoreapp2.0\Armoire.Common.pdb
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.csprojAssemblyReference.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.csproj.CoreCompileInputs.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.AssemblyInfoInputs.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.AssemblyInfo.cs
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.dll
+C:\Projects\FinalAttempt\Armoire\Armoire.Common\obj\Debug\netcoreapp2.0\Armoire.Common.pdb

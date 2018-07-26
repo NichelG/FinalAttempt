@@ -17,7 +17,7 @@ namespace Armoire.Entities
         public virtual string State { get; set; }
         public virtual string Zip { get; set; }
         public virtual string Phone { get; set; }
-        public virtual int AccountType { get; set; }
+        public virtual string AccountType { get; set; }
         public virtual byte[] Image { get; set; }
         public virtual string AccountStatus { get; set; }
         public virtual DateTime DateCreated { get; set; }

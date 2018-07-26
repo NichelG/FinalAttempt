@@ -3060,26 +3060,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SSC17\\.nuget\\packages\\": {},
+    "C:\\Users\\Gordon\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Projects\\empower\\Test\\Armoire\\Armoire.Common\\Armoire.Common.csproj",
+      "projectUniqueName": "C:\\Projects\\FinalAttempt\\Armoire\\Armoire.Common\\Armoire.Common.csproj",
       "projectName": "Armoire.Common",
-      "projectPath": "C:\\Projects\\empower\\Test\\Armoire\\Armoire.Common\\Armoire.Common.csproj",
-      "packagesPath": "C:\\Users\\SSC17\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\empower\\Test\\Armoire\\Armoire.Common\\obj\\",
+      "projectPath": "C:\\Projects\\FinalAttempt\\Armoire\\Armoire.Common\\Armoire.Common.csproj",
+      "packagesPath": "C:\\Users\\Gordon\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\FinalAttempt\\Armoire\\Armoire.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\SSC17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gordon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

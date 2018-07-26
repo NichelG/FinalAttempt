@@ -18,3 +18,15 @@ C:\Projects\empower\Test\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoir
 C:\Projects\empower\Test\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.AssemblyInfo.cs
 C:\Projects\empower\Test\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.dll
 C:\Projects\empower\Test\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.pdb
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\bin\Debug\netcoreapp2.0\Armoire.Entities.deps.json
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\bin\Debug\netcoreapp2.0\Armoire.Entities.dll
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\bin\Debug\netcoreapp2.0\Armoire.Entities.pdb
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\bin\Debug\netcoreapp2.0\Armoire.Common.dll
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\bin\Debug\netcoreapp2.0\Armoire.Common.pdb
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.csprojAssemblyReference.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.csproj.CoreCompileInputs.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.AssemblyInfoInputs.cache
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.AssemblyInfo.cs
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.csproj.CopyComplete
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.dll
+C:\Projects\FinalAttempt\Armoire\Armoire.Entities\obj\Debug\netcoreapp2.0\Armoire.Entities.pdb

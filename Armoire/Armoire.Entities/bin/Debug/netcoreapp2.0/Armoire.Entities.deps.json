@@ -17,10 +17,7 @@
       },
       "Antlr3.Runtime/3.5.1": {
         "runtime": {
-          "lib/netstandard1.1/Antlr3.Runtime.dll": {
-            "assemblyVersion": "3.5.0.2",
-            "fileVersion": "3.5.1.0"
-          }
+          "lib/netstandard1.1/Antlr3.Runtime.dll": {}
         }
       },
       "FluentNHibernate/2.1.2": {
@@ -28,10 +25,7 @@
           "NHibernate": "5.1.1"
         },
         "runtime": {
-          "lib/netcoreapp2.0/FluentNHibernate.dll": {
-            "assemblyVersion": "2.1.2.0",
-            "fileVersion": "2.1.2.0"
-          }
+          "lib/netcoreapp2.0/FluentNHibernate.dll": {}
         }
       },
       "Iesi.Collections/4.0.4": {
@@ -39,10 +33,7 @@
           "System.Runtime.Serialization.Formatters": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Iesi.Collections.dll": {
-            "assemblyVersion": "4.0.0.4000",
-            "fileVersion": "4.0.4.0"
-          }
+          "lib/netstandard1.3/Iesi.Collections.dll": {}
         }
       },
       "Microsoft.NETCore.Targets/1.1.0": {},
@@ -57,10 +48,7 @@
           "System.ServiceModel.Primitives": "4.4.0"
         },
         "runtime": {
-          "lib/netcoreapp2.0/NHibernate.dll": {
-            "assemblyVersion": "5.1.0.0",
-            "fileVersion": "5.1.1.0"
-          }
+          "lib/netcoreapp2.0/NHibernate.dll": {}
         }
       },
       "Remotion.Linq/2.1.2": {
@@ -78,10 +66,7 @@
           "System.Threading": "4.0.11"
         },
         "runtime": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.2.30000"
-          }
+          "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
       "Remotion.Linq.EagerFetching/2.1.0": {
@@ -95,10 +80,7 @@
           "System.Runtime": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.0/Remotion.Linq.EagerFetching.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.30000"
-          }
+          "lib/netstandard1.0/Remotion.Linq.EagerFetching.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -112,10 +94,7 @@
           "System.Security.Cryptography.ProtectedData": "4.4.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25921.2"
-          }
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.0.11": {
@@ -182,17 +161,12 @@
       },
       "System.Net.Http.WinHttpHandler/4.4.0": {
         "runtime": {
-          "lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
-          }
+          "lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll": {
             "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
+            "assetType": "runtime"
           }
         }
       },
@@ -214,15 +188,11 @@
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll": {
             "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.1.2.0",
-            "fileVersion": "4.6.25525.6"
+            "assetType": "runtime"
           },
           "runtimes/win7/lib/netstandard2.0/System.Private.ServiceModel.dll": {
             "rid": "win7",
-            "assetType": "runtime",
-            "assemblyVersion": "4.1.2.0",
-            "fileVersion": "4.6.25525.6"
+            "assetType": "runtime"
           }
         }
       },
@@ -329,17 +299,12 @@
       },
       "System.Security.Cryptography.ProtectedData/4.4.0": {
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
-          }
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
             "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
+            "assetType": "runtime"
           }
         }
       },
@@ -348,10 +313,7 @@
           "System.Security.AccessControl": "4.4.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Permissions.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25921.2"
-          }
+          "lib/netstandard2.0/System.Security.Permissions.dll": {}
         }
       },
       "System.Security.Principal.Windows/4.4.0": {
@@ -371,10 +333,7 @@
           "System.Private.ServiceModel": "4.4.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25525.6"
-          }
+          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {}
         }
       },
       "System.Text.Encoding/4.3.0": {

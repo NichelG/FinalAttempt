@@ -10,25 +10,23 @@ namespace Armoire.Entities.Mappings
         public PatronMap()
         {
             Table("Patrons");
-            Id(x => x.Id).Column("PatronsID");
-            Map(x => x.FirstName);
-            Map(x => x.LastName);
-            Map(x => x.Username).Column("Username");
-            Map(x => x.Password).Column("Pword");
-            Map(x => x.Email).Column("Email");
-            Map(x => x.Address).Column("Address").Nullable();
-            Map(x => x.City).Column("City").Nullable();
-            Map(x => x.State).Nullable();
-            Map(x => x.Zip).Column("Zip").Nullable();
-            Map(x => x.Phone).Column("Phone").Nullable();
-            Map(x => x.Image).Column("Picture").Nullable();
-            Map(x => x.AccountStatus).Column("AccountStatus");
-            Map(x => x.DateCreated).Column("DateCreated");
-            Map(x => x.LastUpdated).Column("LastUpdated").Nullable();
-            Map(x => x.AccountType);
-            //References(x => x.AccountType)
-            //    .Column("TypeID")
-            //    .ForeignKey("TypeID");
+            Id(x => x.Id).Column("patronsID");
+            Map(x => x.FirstName).Column("firstname");
+            Map(x => x.LastName).Column("lastname");
+            Map(x => x.Username).Column("username");
+            Map(x => x.Password).Column("pword");
+            Map(x => x.Email).Column("email");
+            Map(x => x.Address).Column("address").Nullable();
+            Map(x => x.City).Column("city").Nullable();
+            Map(x => x.State).Column("state").Nullable();
+            Map(x => x.Zip).Column("zip").Nullable();
+            Map(x => x.Phone).Column("phone").Nullable();
+            Map(x => x.Image).Column("picture").Nullable();
+            Map(x => x.AccountStatus).Column("accountStatus");
+            Map(x => x.DateCreated).Column("dateCreated");
+            Map(x => x.LastUpdated).Column("lastUpdated").Nullable();
+            Map(x => x.AccountType).Column("accountType");
+            
         }
     }
 }

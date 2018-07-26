@@ -29,7 +29,7 @@ namespace Armoire.Services
                 Phone = "Unknown",
                 State = "Unknown",
                 Zip = "Unknown",
-                AccountType = 2,
+                AccountType = "User",
                 Image = vm.ImageRF,
                 DateCreated = DateTime.UtcNow,
                 LastUpdated = DateTime.UtcNow
