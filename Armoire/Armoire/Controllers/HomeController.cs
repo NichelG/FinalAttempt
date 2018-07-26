@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Armoire.Models;
 using NHibernate;
 using Armoire.Common;
+using Armoire.Common.ViewModels;
 
 namespace Armoire.Controllers
 {
@@ -37,9 +38,28 @@ namespace Armoire.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult Login()
         {
             ViewData["Message"] = "Login Page";
+            var login = new LoginViewModel();
+            return View(login);
+        }
+
+        
+        public IActionResult Login(LoginViewModel viewModel)
+        {
+
+            if (ModelState.IsValid)
+            {
+                bool login = _userService.IsUser(viewModel);
+                if (login == true)
+                {
+                    return View("You did it");//take to dash page
+                }
+
+            }
+
             return View();
         }
 
@@ -59,7 +79,7 @@ namespace Armoire.Controllers
             {
                 _userService.Register(viewModel);
             }
-            return View();
+            return RedirectToAction("Login", "Home");
         }
 
         public IActionResult Error()

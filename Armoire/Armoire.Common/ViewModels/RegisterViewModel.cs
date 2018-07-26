@@ -9,32 +9,32 @@ namespace Armoire.Common
     public class RegisterViewModel
     {
         [Required(ErrorMessage = "Please enter your first name")]
-        public string FirstnameRF { get; set; }
+        public string Firstname { get; set; }
 
         [Required(ErrorMessage = "Please enter your last name")]
-        public string LastnameRF { get; set; }
+        public string Lastname { get; set; }
 
         [Required(ErrorMessage = "Please enter your username")]
-        public string UsernameRF { get; set; }
+        public string Username { get; set; }
 
         [Required(ErrorMessage = "Please enter your password")]
-        public string PasswordRF { get; set; }
+        public string Password { get; set; }
 
         [Required(ErrorMessage = "Please enter your email")]
-        public string EmailRF { get; set; }
+        public string Email { get; set; }
 
-        //DELETE FROM TABLE
-        public string PhoneRF { get; set; }
-        public string AddressRF { get; set; }
-        public string CityRF { get; set; }
-        public string StateRF { get; set; }
-        public string ZipRF { get; set; }
-        public byte[] ImageRF { get; set; }
+        //does not show up on the registration form
+        //public string Phone { get; set; }
+        //public string Address { get; set; }
+        //public string City { get; set; }
+        //public string State { get; set; }
+        //public string Zip { get; set; }
+        public byte[] Image { get; set; }
 
         //set something up to give admin access these variables
-        public string AccountTypeRF { get; set; }
-        public string AccountStatusRF { get; set; }
-        public DateTime DateCreatedRF { get; set; }
+        public string AccountType { get; set; }
+        public string AccountStatus { get; set; }
+        public DateTime DateCreated { get; set; }
         public DateTime LastUpdated { get; set; }
     }
 }
