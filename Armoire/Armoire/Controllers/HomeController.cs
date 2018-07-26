@@ -41,6 +41,7 @@ namespace Armoire.Controllers
         [HttpPost]
         public IActionResult Login()
         {
+            
             ViewData["Message"] = "Login Page";
             var login = new LoginViewModel();
             return View(login);
@@ -49,13 +50,14 @@ namespace Armoire.Controllers
         
         public IActionResult Login(LoginViewModel viewModel)
         {
-
+            var message = "Username and/or password does not match or does not exist.";
             if (ModelState.IsValid)
             {
                 bool login = _userService.IsUser(viewModel);
                 if (login == true)
                 {
-                    return View("You did it");//take to dash page
+                    //return View("Index", "Member");//take to dash page
+                    return this.RedirectToAction("Index", "Member");
                 }
 
             }
@@ -79,7 +81,8 @@ namespace Armoire.Controllers
             {
                 _userService.Register(viewModel);
             }
-            return RedirectToAction("Login", "Home");
+            // return View();
+            return this.RedirectToAction("Home", "Login");
         }
 
         public IActionResult Error()
