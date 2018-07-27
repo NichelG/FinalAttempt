@@ -17,7 +17,7 @@ namespace Armoire.Controllers
         {
             //
 
-            return View("Index", "Home");
+            return this.RedirectToAction("Index", "Home");
         }
 
        

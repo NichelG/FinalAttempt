@@ -7,6 +7,8 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/dashboard.css" />
+        <link rel="stylesheet" href="~/css/ie10-viewport-bug-workaround.css" />s
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -55,7 +57,7 @@
                             <span class="text-muted">Be Inspired</span><!--randon generator with inspirational phrases-->
                         </div>
                     </div>
-
+                    <a asp-area="" asp-controller="MemberSideBar" asp-action="Account" class="navbar-brand"></a>
                     <li class="active"><a href="#">Account Information <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">My Armoire</a></li>
                     <li><a href="#">Vote</a></li>
@@ -65,9 +67,6 @@
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 
-
-
-
                 @RenderBody()
                 </div>
             </div>
